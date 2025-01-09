@@ -6,9 +6,9 @@ Example of what it looks like in the Taskbar when the mouse hovers over the icon
 <img src="screenshots/screenshot.png">
 
 #### Configuration required
-1. Save `headphone_battery.ps1` somewhere on your hard drive.
-2. Save `RunHiddenHeadphoneBattery.vbs` in your Windows Startup directory. To find the Windows Startup location, go to Start -> Run -> and then type in `shell:startup` and hit enter.
-3. Modify `RunHiddenHeadphoneBattery.vbs` and update the path to `headphone_battery.ps1` based on where you saved it in step #1.
+1. Save `headphone_battery.ps1` and `RunHiddenHeadphoneBattery.vbs` somewhere on your hard drive.
+2. Save `RunHiddenHeadphoneBattery.bat` in your Windows Startup directory. To find the Windows Startup location, go to Start -> Run -> and then type in `shell:startup` and hit enter.
+3. Modify `RunHiddenHeadphoneBattery.bat` and update the path to `RunHiddenHeadphoneBattery.vbs` based on where you saved it in step #1. Modify `RunHiddenHeadphoneBattery.vbs` and update the path to `headphone_battery.ps1` based on where you saved it in step #1.
 4. You'll need to update `headphone_battery.ps1` with your Bluetooth device name. To find the correct Bluetooth device name, run this command via PowerShell:
 > NOTE: You might see your PowerShell session flash a blue bar at the top. You can ignore that. It's just cycling through the list of devices.
 ```
