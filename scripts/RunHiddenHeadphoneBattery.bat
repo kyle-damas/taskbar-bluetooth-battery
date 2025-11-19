@@ -1,1 +1,1 @@
-wscript.exe C:\Users\<user>\RunHiddenHeadphoneBattery.vbs
+wscript.exe "C:\Users\<user>\RunHiddenHeadphoneBattery.vbs"
