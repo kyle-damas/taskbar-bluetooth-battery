@@ -14,7 +14,7 @@ function Create-TextIcon {
 
     # Draw percentage text
     if ($percentage -lt 100) {
-        $graphics.DrawString($percentage.ToString(), $font, $brush, 0, 0)
+        $graphics.DrawString($percentage.ToString(), $font, $brush, -4, 0)
     } else {
         $font = New-Object System.Drawing.Font("Arial", 14)
 		$graphics.DrawString("100", $font, $brush, -6, 4)
