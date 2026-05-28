@@ -9,7 +9,7 @@ function Create-TextIcon {
     $graphics = [System.Drawing.Graphics]::FromImage($bitmap)
     $graphics.Clear([System.Drawing.Color]::Transparent)
 
-    $brush = New-Object Drawing.SolidBrush([System.Drawing.Color]::Black)
+    $brush = New-Object Drawing.SolidBrush([System.Drawing.Color]::White)
     $font = New-Object System.Drawing.Font("Arial", 20)
 
     # Draw percentage text
